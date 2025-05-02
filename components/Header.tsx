@@ -7,7 +7,6 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 import React, { useEffect, useState } from 'react'
 import { usePathname, useRouter } from "next/navigation";
-import LogoutButton from "@/components/ui/logout-button"
 import { Session } from "@supabase/supabase-js"
 import { createClient } from "@/utils/supabase/client"
 import { 
